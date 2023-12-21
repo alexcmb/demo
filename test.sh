@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Création des groupes
+# Création des groupes 2
 sudo groupadd managers
 sudo groupadd contractors
 
