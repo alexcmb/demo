@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Création des groupes
+# Création des groupes 2
 sudo groupadd managers
 sudo groupadd contractors
 
@@ -11,11 +11,3 @@ sudo useradd -m -G managers -p $mdp manager2
 sudo useradd -m -G contractors -p $mdp contractor1
 sudo useradd -m -G contractors -p $mdp contractor2
 sudo useradd -m -G contractors -p $mdp contractor3
-
-# Création du répertoire cases
-sudo mkdir -p /shares/cases
-
-# Création des fichiers templates
-sudo echo "###Shortlist of Clients to call###TEMPLATE###" > /shares/cases/shortlist.txt
-sudo echo "###Backlog of products###TEMPLATE###"  > /shares/cases/backlog.txt
-
